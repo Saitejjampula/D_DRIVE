@@ -52,7 +52,7 @@
 #endif
 constexpr int          USB_BAUD       = 2000000;
 constexpr int          CAN_SPEED      = 250000;
-constexpr const char*  LOG_FILE       = "can_log.csv";   // rename to .xlsx if using libxlsxwriter
+constexpr const char*  LOG_FILE       = "can_log.xlsx";   // rename to .xlsx if using libxlsxwriter
 constexpr uint32_t     CMD_CAN_ID     = 0x18530905;
 constexpr double       SEND_INTERVAL  = 0.1;             // seconds
 constexpr double       INTER_FRAME_DELAY = 0.001;        // seconds
